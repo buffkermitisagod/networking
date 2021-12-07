@@ -9,6 +9,7 @@ import os #standered libarry stuff
 from mod.system.system_config.mac_gen import mac_maker
 
 def atk(): # this bit is needed as it is what the program imports/calls to run from the file
+  os.system("clear")
   mac = str(mac_maker)
   print("[MAC] "+mac)
   
