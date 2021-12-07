@@ -1,0 +1,15 @@
+# as it is in python comments would be '#'
+# this example is one of a mac genrator using inbuilt modules
+
+
+# first import modules
+import os #standered libarry stuff
+
+# now importing the inbuilt modules
+from mod.system.system_config.mac_gen import mac_maker
+
+def atk(): # this bit is needed as it is what the program imports/calls to run from the file
+  mac = str(mac_maker)
+  print("[MAC] "+mac)
+  
+# very basic but a good example(i think)
